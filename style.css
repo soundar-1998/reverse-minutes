@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    color:white;
+}
+body{
+    background-image: url("https://www.abhibus.com/blog/wp-content/uploads/2023/11/Diwali-Firecrackers.jpg");
+     background-repeat:no-repeat ;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      color: white;
+       display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}#count-down{
+display: flex;
+
+}.time{
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+
+}small{
+    font-size: 30px;
+    font-weight: bold;
+}.year{
+    position: absolute;
+    bottom: 20px;
+    font-size: 60px;
+    opacity: 0.8;
+}
